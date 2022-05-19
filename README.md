@@ -1,12 +1,12 @@
 # Trained-ML-Agents-Actors
-Trained ML-Agent Actors on PPO and SAC algorithms in the following scenes and tasks: 3DBall, 3DBallHard, Basic, Crawler, Hallway, PushBlock, Walker, WallJump, and Worm
+Trained ML-Agent Actors on PPO and SAC algorithms in the following scenes and tasks: 3DBall, 3DBallHard, Basic, Crawler, Hallway, PushBlock, Walker, WallJump, and Worm. All the actors have been trained using the default configurations and assets provided by the [Unity ML-Agent Toolkit](https://github.com/Unity-Technologies/ml-agents). This repo contains both the trained model files (.onnx) and the logs of the training for comparing both algorithms.
 
 ## Installations
-- Follow installation instructions from: https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md
+- Follow installation instructions from: [ML-Agent Toolkit - Installation](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md) 
 	- For "Install the com.unity.ml-agents Unity package" and "Install the com.unity.ml-agents.extensions Unity package (Optional)" follow instructions on "Setting Up Unity Environment with ML-Agent" in this readMe
 
 ## Setting Up Unity Environment with ML-Agent
-1. Download ML-Agent from: https://github.com/Unity-Technologies/ml-agents#releases--documentation and extract it to any desired location.
+1. Download ML-Agent from: [ML-Agent Toolkit - Source](https://github.com/Unity-Technologies/ml-agents#releases--documentation) and extract it to any desired location.
 2. Create a New Project with 3D Core Template as base in Unity Hub.
 3. Open the project.
 4. Add `com.unity.ml-agents` package to Unity your Project.
@@ -34,3 +34,15 @@ Trained ML-Agent Actors on PPO and SAC algorithms in the following scenes and ta
 4. Search and select the child with the name "Agent", "BaseAgent", or variants of it and go to it's `inspector` -> (under) `Behaviour Parameters` -> `Model` -> (drag and drop onnx model into pane or select it from the search option)
 5. Right click on the `Model` Text Bar and click on `Apply to Prefab` to effectuate the changes to all agents.
 6. Run scene
+
+## Observing Training Statistics
+1. Follow installation instructions for the python packages from: [ML-Agent Toolkit - Installation - Python Package](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md#install-the-mlagents-python-package)
+2. Open a python terminal and move to the folder containing `/results/`
+3. Run the following command: 
+```
+tensorboard --logdir results
+```
+4. Using a browser, open `localhost:6006`.
+5. You now have access to the TensorBoard summary of the stastistics!
+
+Note: For more information on training models and their statisctics, refer to [ML-Agent Toolkit - Getting Started](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Getting-Started.md)
