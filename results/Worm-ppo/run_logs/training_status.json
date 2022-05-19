@@ -1,0 +1,65 @@
+{
+    "Worm": {
+        "checkpoints": [
+            {
+                "steps": 5499000,
+                "file_path": "results\\worm-ppo\\Worm\\Worm-5499000.onnx",
+                "reward": 1232.7503797743057,
+                "creation_time": 1651077585.1769953,
+                "auxillary_file_paths": [
+                    "results\\worm-ppo\\Worm\\Worm-5499000.pt"
+                ]
+            },
+            {
+                "steps": 5999000,
+                "file_path": "results\\worm-ppo\\Worm\\Worm-5999000.onnx",
+                "reward": 1238.6411890490301,
+                "creation_time": 1651080891.0576727,
+                "auxillary_file_paths": [
+                    "results\\worm-ppo\\Worm\\Worm-5999000.pt"
+                ]
+            },
+            {
+                "steps": 6499000,
+                "file_path": "results\\worm-ppo\\Worm\\Worm-6499000.onnx",
+                "reward": 1246.2656378495067,
+                "creation_time": 1651081630.243132,
+                "auxillary_file_paths": [
+                    "results\\worm-ppo\\Worm\\Worm-6499000.pt"
+                ]
+            },
+            {
+                "steps": 6999000,
+                "file_path": "results\\worm-ppo\\Worm\\Worm-6999000.onnx",
+                "reward": 1282.4078233506943,
+                "creation_time": 1651082382.7789423,
+                "auxillary_file_paths": [
+                    "results\\worm-ppo\\Worm\\Worm-6999000.pt"
+                ]
+            },
+            {
+                "steps": 7010000,
+                "file_path": "results\\worm-ppo\\Worm\\Worm-7010000.onnx",
+                "reward": 1274.1914855957032,
+                "creation_time": 1651082395.4792514,
+                "auxillary_file_paths": [
+                    "results\\worm-ppo\\Worm\\Worm-7010000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 7010000,
+            "file_path": "results\\worm-ppo\\Worm.onnx",
+            "reward": 1274.1914855957032,
+            "creation_time": 1651082395.4792514,
+            "auxillary_file_paths": [
+                "results\\worm-ppo\\Worm\\Worm-7010000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

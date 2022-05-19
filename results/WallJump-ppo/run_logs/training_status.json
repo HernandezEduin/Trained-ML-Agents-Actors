@@ -1,0 +1,123 @@
+{
+    "BigWallJump": {
+        "checkpoints": [
+            {
+                "steps": 23999998,
+                "file_path": "results\\WallJump-ppo\\BigWallJump\\BigWallJump-23999998.onnx",
+                "reward": 0.8385955907120252,
+                "creation_time": 1651057940.9940474,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\BigWallJump\\BigWallJump-23999998.pt"
+                ]
+            },
+            {
+                "steps": 24499968,
+                "file_path": "results\\WallJump-ppo\\BigWallJump\\BigWallJump-24499968.onnx",
+                "reward": 0.8388222231173834,
+                "creation_time": 1651059099.2248406,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\BigWallJump\\BigWallJump-24499968.pt"
+                ]
+            },
+            {
+                "steps": 24999996,
+                "file_path": "results\\WallJump-ppo\\BigWallJump\\BigWallJump-24999996.onnx",
+                "reward": 0.8388890550310493,
+                "creation_time": 1651060249.798433,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\BigWallJump\\BigWallJump-24999996.pt"
+                ]
+            },
+            {
+                "steps": 25499986,
+                "file_path": "results\\WallJump-ppo\\BigWallJump\\BigWallJump-25499986.onnx",
+                "reward": 0.8390679541023107,
+                "creation_time": 1651061405.0124686,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\BigWallJump\\BigWallJump-25499986.pt"
+                ]
+            },
+            {
+                "steps": 25615695,
+                "file_path": "results\\WallJump-ppo\\BigWallJump\\BigWallJump-25615695.onnx",
+                "reward": 0.8391332690643372,
+                "creation_time": 1651061670.3019414,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\BigWallJump\\BigWallJump-25615695.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 25615695,
+            "file_path": "results\\WallJump-ppo\\BigWallJump.onnx",
+            "reward": 0.8391332690643372,
+            "creation_time": 1651061670.3019414,
+            "auxillary_file_paths": [
+                "results\\WallJump-ppo\\BigWallJump\\BigWallJump-25615695.pt"
+            ]
+        }
+    },
+    "SmallWallJump": {
+        "checkpoints": [
+            {
+                "steps": 3499997,
+                "file_path": "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-3499997.onnx",
+                "reward": 0.8830502531836567,
+                "creation_time": 1651047667.4830918,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-3499997.pt"
+                ]
+            },
+            {
+                "steps": 3999997,
+                "file_path": "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-3999997.onnx",
+                "reward": 0.8732133492889503,
+                "creation_time": 1651052502.6969793,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-3999997.pt"
+                ]
+            },
+            {
+                "steps": 4499988,
+                "file_path": "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-4499988.onnx",
+                "reward": 0.8625784466724867,
+                "creation_time": 1651057058.8850102,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-4499988.pt"
+                ]
+            },
+            {
+                "steps": 4999995,
+                "file_path": "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-4999995.onnx",
+                "reward": 0.9760714513914925,
+                "creation_time": 1651061669.798492,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-4999995.pt"
+                ]
+            },
+            {
+                "steps": 5000002,
+                "file_path": "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-5000002.onnx",
+                "reward": 0.9771875217556953,
+                "creation_time": 1651061670.1123369,
+                "auxillary_file_paths": [
+                    "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-5000002.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000002,
+            "file_path": "results\\WallJump-ppo\\SmallWallJump.onnx",
+            "reward": 0.9771875217556953,
+            "creation_time": 1651061670.1123369,
+            "auxillary_file_paths": [
+                "results\\WallJump-ppo\\SmallWallJump\\SmallWallJump-5000002.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

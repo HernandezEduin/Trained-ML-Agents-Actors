@@ -1,0 +1,65 @@
+{
+    "Walker": {
+        "checkpoints": [
+            {
+                "steps": 13499466,
+                "file_path": "results\\Walker-sac\\Walker\\Walker-13499466.onnx",
+                "reward": null,
+                "creation_time": 1651359315.7054884,
+                "auxillary_file_paths": [
+                    "results\\Walker-sac\\Walker\\Walker-13499466.pt"
+                ]
+            },
+            {
+                "steps": 13999735,
+                "file_path": "results\\Walker-sac\\Walker\\Walker-13999735.onnx",
+                "reward": null,
+                "creation_time": 1651360697.9127314,
+                "auxillary_file_paths": [
+                    "results\\Walker-sac\\Walker\\Walker-13999735.pt"
+                ]
+            },
+            {
+                "steps": 14499109,
+                "file_path": "results\\Walker-sac\\Walker\\Walker-14499109.onnx",
+                "reward": null,
+                "creation_time": 1651362080.9236805,
+                "auxillary_file_paths": [
+                    "results\\Walker-sac\\Walker\\Walker-14499109.pt"
+                ]
+            },
+            {
+                "steps": 14999440,
+                "file_path": "results\\Walker-sac\\Walker\\Walker-14999440.onnx",
+                "reward": null,
+                "creation_time": 1651363466.411901,
+                "auxillary_file_paths": [
+                    "results\\Walker-sac\\Walker\\Walker-14999440.pt"
+                ]
+            },
+            {
+                "steps": 15000275,
+                "file_path": "results\\Walker-sac\\Walker\\Walker-15000275.onnx",
+                "reward": 3156.42724609375,
+                "creation_time": 1651363466.636102,
+                "auxillary_file_paths": [
+                    "results\\Walker-sac\\Walker\\Walker-15000275.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15000275,
+            "file_path": "results\\Walker-sac\\Walker.onnx",
+            "reward": 3156.42724609375,
+            "creation_time": 1651363466.636102,
+            "auxillary_file_paths": [
+                "results\\Walker-sac\\Walker\\Walker-15000275.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
