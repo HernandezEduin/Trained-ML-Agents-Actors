@@ -26,7 +26,11 @@ Trained ML-Agent Actors on PPO and SAC algorithms in the following scenes and ta
 9. In the **Project Console**, open any of the scenes in `Assets/ML-Agents/Examples/<Environment>/Scenes/<EnvironmentGame>`
 10. Go to `Edit` -> `Project Settings` -> `Player` -> (Under) `Other Settings` -> (Under) `Configuration` -> `Active Input Handling`, Select the Option `"Both"` and wait for Unity to Restart.
 11. At this point, the Scene should be able to run.
-
+## How to Train Agents
+1. Run mlagents-learn config/ppo/<mlagentname>.yaml --run-id=<unique run id>
+2. Run the agent in scene in unity your agent will start learning
+[Training Video](https://www.youtube.com/watch?v=iF6p9d7CFC0) 
+	
 ## Loading a Trained Model into the Scene Agents.
 1. The trained models are provided in `Results/<Environment>-<actor>/<Environment>-<actor>.onnx`. i.e., the model for `3D Ball` trained on `SAC` algorithm can be found in `results/3DBall-sac/3DBall-sac.onnx`.
 2. Copy model into `Assets/ML-Agents/Examples/<Environment>/TFModels/`
