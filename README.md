@@ -38,7 +38,7 @@ Trained ML-Agent Actors on PPO and SAC algorithms in the following scenes and ta
 4. Search and select the child with the name "Agent", "BaseAgent", or variants of it and go to it's `inspector` -> (under) `Behaviour Parameters` -> `Model` -> (drag and drop onnx model into pane or select it from the search option)
 5. Right click on the `Model` Text Bar and click on `Apply to Prefab` to effectuate the changes to all agents.
 6. Run scene
-[Video Recording](https://www.youtube.com/watch?v=MBxbIt1HCzs) 
+[Video Recording](https://www.youtube.com/watch?v=MBxbIt1HCzs)     
 ## Observing Training Statistics
 1. Follow installation instructions for the python packages from: [ML-Agent Toolkit - Installation - Python Package](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md#install-the-mlagents-python-package)
 2. Open a python terminal and move to the folder containing `/results/`
@@ -48,5 +48,5 @@ tensorboard --logdir results
 ```
 4. Using a browser, open `localhost:6006`.
 5. You now have access to the TensorBoard summary of the stastistics!
-[Video Recording](https://www.youtube.com/watch?v=y5D_AYjQiAA) 
+[Video Recording](https://www.youtube.com/watch?v=y5D_AYjQiAA)    
 Note: For more information on training models and their statisctics, refer to [ML-Agent Toolkit - Getting Started](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Getting-Started.md)
